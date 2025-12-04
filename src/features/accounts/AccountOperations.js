@@ -25,7 +25,7 @@ function AccountOperations() {
     console.log("Depositing:", depositAmount, currency);
     dispatch(deposit(depositAmount, currency));
     setDepositAmount("");
-    setCurrency("");
+    setCurrency("USD");
   }
 
   function handleWithdrawal() {
